@@ -14,6 +14,7 @@
 		1CA732811F824BC1003CA229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA7327F1F824BC1003CA229 /* LaunchScreen.storyboard */; };
 		1CA7328C1F824BC1003CA229 /* ChangedColorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7328B1F824BC1003CA229 /* ChangedColorsAppTests.swift */; };
 		1CA732971F824BC1003CA229 /* ChangedColorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA732961F824BC1003CA229 /* ChangedColorsAppUITests.swift */; };
+		1CA732A51F825586003CA229 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA732A41F825586003CA229 /* SecondPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1CA732921F824BC1003CA229 /* ChangedColorsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangedColorsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA732961F824BC1003CA229 /* ChangedColorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangedColorsAppUITests.swift; sourceTree = "<group>"; };
 		1CA732981F824BC1003CA229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA732A41F825586003CA229 /* SecondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1CA7327D1F824BC1003CA229 /* Assets.xcassets */,
 				1CA7327F1F824BC1003CA229 /* LaunchScreen.storyboard */,
 				1CA732821F824BC1003CA229 /* Info.plist */,
+				1CA732A41F825586003CA229 /* SecondPage.swift */,
 			);
 			path = ChangedColorsApp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				1CA732791F824BC1003CA229 /* ViewController.swift in Sources */,
 				1CA732771F824BC1003CA229 /* AppDelegate.swift in Sources */,
+				1CA732A51F825586003CA229 /* SecondPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
