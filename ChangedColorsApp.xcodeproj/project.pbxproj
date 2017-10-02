@@ -15,6 +15,7 @@
 		1CA7328C1F824BC1003CA229 /* ChangedColorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA7328B1F824BC1003CA229 /* ChangedColorsAppTests.swift */; };
 		1CA732971F824BC1003CA229 /* ChangedColorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA732961F824BC1003CA229 /* ChangedColorsAppUITests.swift */; };
 		1CA732A51F825586003CA229 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA732A41F825586003CA229 /* SecondPage.swift */; };
+		1CA732A91F8262A8003CA229 /* ThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA732A81F8262A8003CA229 /* ThirdController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1CA732961F824BC1003CA229 /* ChangedColorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangedColorsAppUITests.swift; sourceTree = "<group>"; };
 		1CA732981F824BC1003CA229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CA732A41F825586003CA229 /* SecondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		1CA732A81F8262A8003CA229 /* ThirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				1CA732761F824BC1003CA229 /* AppDelegate.swift */,
 				1CA732781F824BC1003CA229 /* ViewController.swift */,
+				1CA732A41F825586003CA229 /* SecondPage.swift */,
 				1CA7327A1F824BC1003CA229 /* Main.storyboard */,
 				1CA7327D1F824BC1003CA229 /* Assets.xcassets */,
 				1CA7327F1F824BC1003CA229 /* LaunchScreen.storyboard */,
 				1CA732821F824BC1003CA229 /* Info.plist */,
-				1CA732A41F825586003CA229 /* SecondPage.swift */,
+				1CA732A81F8262A8003CA229 /* ThirdController.swift */,
 			);
 			path = ChangedColorsApp;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA732791F824BC1003CA229 /* ViewController.swift in Sources */,
+				1CA732A91F8262A8003CA229 /* ThirdController.swift in Sources */,
 				1CA732771F824BC1003CA229 /* AppDelegate.swift in Sources */,
 				1CA732A51F825586003CA229 /* SecondPage.swift in Sources */,
 			);
