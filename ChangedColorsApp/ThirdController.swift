@@ -1,24 +1,25 @@
-//
-//  ThirdController.swift
-//  ChangedColorsApp
-//
-//  Created by ST6 on 2.10.2017.
-//  Copyright © 2017 kugim. All rights reserved.
-//
 
 import UIKit
 
 class ThirdController: UIViewController {
-    let paintColourPrice = ["Red": 1.23, "Yellow": 1.55, "Blue": 1.23]
-    var colorList = ["Blue","Yellow","Red"]
+    let paintColourPrice = ["Red": 1.23, "Yellow": 1.55, "Blue": 1.23, "Others" : 1.21]
+    var colorList = ["Blue","Yellow","Red","Others"]
     @IBOutlet weak var paintingPriceLabel: UILabel!
     @IBOutlet weak var lengthField: UITextField!
     @IBOutlet weak var widthField: UITextField!
     @IBOutlet weak var resultField: UILabel!
     @IBOutlet weak var colortextBox: UITextField!
     @IBOutlet weak var colorDropDown: UIPickerView!
+    @IBOutlet weak var m2: UILabel!
     
     @IBAction func calculateButton(_ sender: UIButton) {
+        if lengthField.text! == "" || widthField.text! == "" || colortextBox.text! == "" {
+            let alert = UIAlertController(title: "Alert", message: "Please enter a value!", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        } else {
+        
+        
         resultField.text = String (format : "%.2f", (Double(lengthField.text!)! * Double(widthField.text!)!))
         
         func  paintingTotalPriceCalculate () -> String {
@@ -29,7 +30,9 @@ class ThirdController: UIViewController {
             }
             return String(priceValue)
         }
+            m2.isHidden = false
         paintingPriceLabel.text = paintingTotalPriceCalculate()
+    }
     }
     
     
@@ -62,6 +65,8 @@ class ThirdController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        colorDropDown.isHidden = true
+        m2.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {
